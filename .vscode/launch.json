@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "تشغيل PassVault",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build PassVault",
+            "program": "${workspaceFolder}\\PassVault\\bin\\Debug\\net10.0-windows\\PassVault.dll",
+            "cwd": "${workspaceFolder}\\PassVault",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        }
+    ]
+}

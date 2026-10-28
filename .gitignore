@@ -1,0 +1,21 @@
+# .NET and Visual Studio build output
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+
+# Local PassVault vaults, backups, exports, and secrets
+vault.pv
+*.pv
+*.passvault
+*.backup
+*.pdf
+*.local.json
+secrets/
+*.key
+*.pem
+
+# Publish output
+publish/
+artifacts/
